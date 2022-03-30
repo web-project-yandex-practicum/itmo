@@ -1,0 +1,18 @@
+.news__card {
+  width: 350px;
+  min-height: 340px;
+  background-color: #E0F0FF;
+  border-radius: 10px;
+  position: relative;
+}
+
+.news__card::after {
+  content: '';
+  background-image: url(../../../images/news-card-pin.svg);
+  position: absolute;
+  top: -15px;
+  right: -18px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}

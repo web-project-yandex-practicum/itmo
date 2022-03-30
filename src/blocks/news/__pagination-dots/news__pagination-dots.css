@@ -1,0 +1,8 @@
+.news__pagination-dots {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 25px 0 100px;
+  justify-content: center;
+  column-gap: 12px;
+}

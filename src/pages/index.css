@@ -3,3 +3,24 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__title-span-accent/intro__title-span-accent.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__link/intro__link.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
+
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__text/news__text.css);
+@import url(../blocks/news/__pagination-dots/news__pagination-dots.css);
+@import url(../blocks/news/__pagination-dot/news__pagination-dot.css);
+@import url(../blocks/news/__pagination-dot/_active/news__pagination-dot_active.css);

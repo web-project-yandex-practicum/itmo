@@ -1,0 +1,30 @@
+.about__text {
+  margin: 30px auto 35px;
+  max-width: 940px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px){
+  .about__text {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .about__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .about__text {
+    margin: 15px auto 35px 20px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

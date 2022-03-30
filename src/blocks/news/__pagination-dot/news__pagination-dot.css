@@ -1,0 +1,10 @@
+.news__pagination-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: #FFFFFF;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,14 @@
+.news__title {
+  max-width: 308px;
+  margin: 0 auto 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #001337;
+  text-transform: uppercase;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

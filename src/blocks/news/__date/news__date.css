@@ -1,0 +1,9 @@
+.news__date {
+  max-width: 308px;
+  margin: 20px auto 10px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #009FAC;
+}
