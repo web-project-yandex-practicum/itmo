@@ -1,3 +1,10 @@
 .header__menu-item_active {
   border-bottom: 2px solid #009fac;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__menu-item_active {
+    opacity: 1;
+    border: none;
+  }
+}

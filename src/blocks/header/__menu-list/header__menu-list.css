@@ -10,8 +10,10 @@
   .header__menu-list {
     flex-direction: column;
     align-self: start;
-    height: 0px;
+    max-height: 0px;
     overflow: hidden;
-    transition: height 1s;
+    gap: 0;
+    transition: max-height 0.6s ease-out;
+    width: 100%;
   }
 }

@@ -1,7 +1,7 @@
 .header__menu-button {
   position: absolute;
   top: 18px;
-  left: 39px;
+  left: calc(40px + 24px);
   display: none;
   width: 24px;
   height: 24px;
@@ -16,5 +16,11 @@
 @media screen and (max-width: 1024px) {
   .header__menu-button {
     display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__menu-button {
+    left: calc(18px + 24px);
   }
 }

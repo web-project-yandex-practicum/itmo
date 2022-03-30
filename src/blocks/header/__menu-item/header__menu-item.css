@@ -5,4 +5,16 @@
   height: 44px;
   align-items: center;
   place-content: center;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__menu-item {
+    opacity: 0.5;
+    width: 100%;
+  }
+
+  .header__menu-item:hover {
+    background-color: #001337;
+  }
 }
