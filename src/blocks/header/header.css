@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: max-content;
   color: white;
   width: 100%;
   padding: 0 165px;

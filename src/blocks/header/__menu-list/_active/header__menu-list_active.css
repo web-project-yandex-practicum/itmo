@@ -1,0 +1,4 @@
+.header__menu-list_active {
+  height: 250px;
+  transition: height 1s;
+}
