@@ -12,7 +12,6 @@ class ActiveItem {
   setEvent() {
     this.children.forEach((item) =>
       item.addEventListener("click", (e) => {
-        e.preventDefault();
         this._removeActive();
         item.classList.add(this._activeClass);
       })

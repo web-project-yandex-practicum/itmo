@@ -1,6 +1,17 @@
 .header__link {
+  display: inherit;
   color: inherit;
   text-decoration: none;
   font-size: 14px;
   opacity: inherit;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__link {
+    justify-content: start;
+  }
 }

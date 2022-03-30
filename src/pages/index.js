@@ -1,9 +1,5 @@
 import "./index.css";
-import {
-  headerMenuButton,
-  headerMenuList,
-  menuListItems,
-} from "../utils/constants";
+import { headerMenuButton, headerMenuList } from "../utils/constants";
 
 import ActiveItem from "../components/ActiveItem";
 
