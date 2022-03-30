@@ -1,0 +1,20 @@
+.header__menu-button {
+  position: absolute;
+  top: 18px;
+  left: 39px;
+  display: none;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  background-image: url(../../../images/Burger_menu.png);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__menu-button {
+    display: block;
+  }
+}

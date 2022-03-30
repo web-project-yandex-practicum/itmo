@@ -1,6 +1,7 @@
 .page {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -11,4 +12,15 @@
   min-width: 320px;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.page::before {
+  position: absolute;
+  content: "";
+  background-color: #000d26;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
