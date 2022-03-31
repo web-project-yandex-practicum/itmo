@@ -1,0 +1,6 @@
+.projects__card {
+  max-width: 254px;
+  height: 228px;
+  background-color: rgba(0, 159, 172);
+  border-radius: 10px;
+}

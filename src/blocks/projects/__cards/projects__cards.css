@@ -1,0 +1,7 @@
+.projects__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 30px;
+  max-height: 486px;
+  overflow: hidden;
+}

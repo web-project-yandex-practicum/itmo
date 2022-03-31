@@ -14,3 +14,10 @@ const setActiveHeaderMenuItems = new ActiveItem({
 });
 
 setActiveHeaderMenuItems.setEvent();
+
+const setActiveProjectsItem = new ActiveItem({
+  selectorList: ".projects__list",
+  activeClass: "projects__list-item_active",
+});
+
+setActiveProjectsItem.setEvent();

@@ -22,4 +22,7 @@
 @import url(../blocks/projects/__list/projects__list.css);
 @import url(../blocks/projects/__list-item/projects__list-item.css);
 @import url(../blocks/projects/__list-item/_active/projects__list-item_active.css);
+@import url(../blocks/projects/__cards/projects__cards.css);
+@import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__card/_active/projects__card_active.css);
 /* PROJECTS */

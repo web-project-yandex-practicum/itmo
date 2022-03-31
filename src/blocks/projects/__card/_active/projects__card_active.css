@@ -1,0 +1,4 @@
+.projects__card_active {
+  background-color: rgba(224, 240, 255);
+  z-index: 1;
+}
