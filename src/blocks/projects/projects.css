@@ -1,0 +1,7 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 80px 165px 62px 165px;
+  text-align: center;
+}
