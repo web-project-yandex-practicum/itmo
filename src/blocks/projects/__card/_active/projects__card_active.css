@@ -1,4 +1,17 @@
 .projects__card_active {
+  grid-column: span 2;
+  width: 540px;
   background-color: rgba(224, 240, 255);
-  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects__card_active {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .projects__card_active {
+    width: 288px;
+  }
 }

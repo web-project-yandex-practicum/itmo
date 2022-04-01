@@ -1,7 +1,22 @@
 .projects__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(140px, 254px));
   gap: 30px;
   max-height: 486px;
   overflow: hidden;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects__cards {
+    max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .projects__cards {
+    grid-template-columns: auto;
+    max-height: 268px;
+    gap: 8px;
+  }
 }

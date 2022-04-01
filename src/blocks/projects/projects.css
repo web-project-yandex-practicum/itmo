@@ -5,3 +5,16 @@
   padding: 80px 165px 62px 165px;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .projects {
+    padding: 60px 39px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .projects {
+    padding: 40px 16px;
+    gap: 20px;
+  }
+}

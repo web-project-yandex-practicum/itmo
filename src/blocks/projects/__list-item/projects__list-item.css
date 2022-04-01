@@ -16,3 +16,12 @@
 .projects__list-item:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 640px) {
+  .projects__list-item {
+    height: 44px;
+    padding-bottom: 12px;
+    justify-content: start;
+    max-width: 288px;
+  }
+}
