@@ -1,0 +1,12 @@
+.projects__card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+}
+
+@media screen and (max-width: 640px) {
+  .projects__card-content {
+    width: 120px;
+  }
+}

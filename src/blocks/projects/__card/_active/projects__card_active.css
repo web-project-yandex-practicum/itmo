@@ -3,6 +3,10 @@
   width: 540px;
   background-color: rgba(224, 240, 255);
   transition: width 1s;
+  color: black;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-position: right;
 }
 
 @media screen and (max-width: 1024px) {

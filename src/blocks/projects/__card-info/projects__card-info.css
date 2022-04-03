@@ -1,0 +1,12 @@
+.projects__card-info {
+  margin: 0;
+  font-size: 14px;
+  line-height: calc(20 / 14);
+}
+
+@media screen and (max-width: 640px) {
+  .projects__card-info {
+    font-size: 10px;
+    line-height: calc(13 / 10);
+  }
+}

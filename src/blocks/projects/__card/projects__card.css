@@ -1,9 +1,16 @@
 .projects__card {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   width: 254px;
   height: 228px;
   background-color: rgba(0, 159, 172);
   border-radius: 10px;
+  background-image: url(../../../images/Factory.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  text-align: start;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,5 +24,6 @@
   .projects__card {
     width: 140px;
     height: 130px;
+    padding: 10px;
   }
 }

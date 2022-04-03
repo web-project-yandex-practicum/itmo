@@ -1,0 +1,7 @@
+.projects__card-text {
+  display: none;
+}
+
+.projects__card-text_show {
+  display: contents;
+}

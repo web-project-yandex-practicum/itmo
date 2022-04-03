@@ -30,17 +30,29 @@ setActiveProjectsItem.setEvent();
 
 const cardsList = Array.from(projectCards.children);
 
-function removeActiveCard(card) {
-  cardsList.forEach((item) => {
-    if (!(card == item)) item.classList.remove("projects__card_active");
+function removeActiveCard() {
+  cardsList.forEach((card) => {
+    if (card.classList.contains("projects__card_active")) {
+      toggleCard(card);
+    }
   });
+}
+
+function toggleCard(card) {
+  card.classList.toggle("projects__card_active");
+  const text = card.querySelector(".projects__card-text");
+  const logo = card.querySelector(".projects__logo-path");
+  const moreInfo = card.querySelector(".projects__more-info");
+  text.classList.toggle("projects__card-text_show");
+  logo.classList.toggle("projects__logo_active");
+  moreInfo.classList.toggle("projects__more-info_active");
 }
 
 cardsList.forEach((card) => {
   const button = card.querySelector(".projects__button");
-  button.addEventListener("click", () => {
-    card.classList.toggle("projects__card_active");
-    removeActiveCard(card);
+  button.addEventListener("click", (e) => {
+    removeActiveCard();
+    toggleCard(card);
   });
 });
 
