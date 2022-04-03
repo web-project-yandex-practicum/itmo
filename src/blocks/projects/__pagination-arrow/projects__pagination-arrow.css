@@ -1,0 +1,22 @@
+.projects__pagination-arrow {
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../../images/arrow-down.png);
+  cursor: pointer;
+}
+
+.projects__pagination-arrow:active:nth-child(1) {
+  background-image: url(../../../images/arrow-down_color.png);
+  transform: rotate(180deg);
+}
+
+.projects__pagination-arrow:active:nth-child(1n + 2) {
+  background-image: url(../../../images/arrow-down_color.png);
+  transform: rotate(0);
+}
+
+.projects__pagination-arrow:nth-child(1n + 2) {
+  transform: rotate(180deg);
+}

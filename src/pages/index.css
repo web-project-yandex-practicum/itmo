@@ -25,4 +25,9 @@
 @import url(../blocks/projects/__cards/projects__cards.css);
 @import url(../blocks/projects/__card/projects__card.css);
 @import url(../blocks/projects/__card/_active/projects__card_active.css);
+@import url(../blocks/projects/__button/projects__button.css);
+@import url(../blocks/projects/__pagination/projects__pagination.css);
+@import url(../blocks/projects/__pagination-number/projects__pagination-number.css);
+@import url(../blocks/projects/__pagination-number/_active/projects__pagination-number_active.css);
+@import url(../blocks/projects/__pagination-arrow/projects__pagination-arrow.css);
 /* PROJECTS */

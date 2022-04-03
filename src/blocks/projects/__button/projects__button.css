@@ -1,0 +1,15 @@
+.projects__button {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  bottom: 22px;
+  right: 22px;
+  background-image: url(../../../images/arrow-right.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  cursor: pointer;
+}

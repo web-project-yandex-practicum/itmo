@@ -1,4 +1,5 @@
 .projects__card {
+  position: relative;
   width: 254px;
   height: 228px;
   background-color: rgba(0, 159, 172);

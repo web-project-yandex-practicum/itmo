@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 640px) {
   .projects__cards {
-    grid-template-columns: auto;
+    grid-template-columns: repeat(2, 140px);
     max-height: 268px;
     gap: 8px;
   }
