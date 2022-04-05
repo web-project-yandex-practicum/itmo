@@ -1,3 +1,15 @@
+.projects__logo {
+  width: 100px;
+  height: 40px;
+}
+
 .projects__logo_active {
   fill: black;
+}
+
+@media screen and (max-width: 640px) {
+  .projects__logo {
+    width: 80px;
+    height: 30px;
+  }
 }
